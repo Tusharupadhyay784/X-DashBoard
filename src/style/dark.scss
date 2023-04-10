@@ -1,0 +1,83 @@
+// body {
+// background-image: url('https://hype4.academy/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg2%402x.e27efe19.webp&w=1920&q=75');
+// background-size: 100%;
+// background-position: center;
+// }
+
+.app.dark {
+    background-color: #111;
+    color: rgb(156, 156, 156);
+
+    .chartGrid {
+        stroke: rgba(228, 228, 228, .219);
+    }
+
+    .table {
+        background-color: #111;
+
+
+        .tableCell {
+            color: gray;
+        }
+    }
+
+    .navbar {
+        color: #999;
+        border-color: #333;
+
+        .search {
+            border-color: gray;
+
+        }
+    }
+
+    .sidebar {
+        background-color: #111;
+        border-color: #333;
+
+        .top {
+            .logo {
+                color: #999;
+
+            }
+        }
+
+        hr {
+            border-color: #333;
+
+        }
+
+        ul {
+            li {
+                &:hover {
+                    background-color: #333;
+
+                }
+
+                .icon {
+                    color: #999;
+
+                }
+            }
+        }
+    }
+
+    .datatable {
+        .datagrid {
+            color: gray;
+            border: none;
+
+            .viewButton,
+            .deleteButton,
+            .cellWithStatus {
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
+    input {
+        background-color: transparent;
+
+    }
+}

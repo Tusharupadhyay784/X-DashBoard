@@ -1,0 +1,144 @@
+.container {
+  background: url("https://images.pexels.com/photos/7135121/pexels-photo-7135121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(100px);
+  border-radius: 1em;
+  height: max-content !important;
+  width: 40vw;
+}
+.container .box .form {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+}
+.container .box .form > div .form__labels {
+  font-size: 1.2rem;
+  margin-left: 0.7rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  font-family: sans-serif;
+  transform: translateY(-6.9rem);
+}
+.container .box .form > div .form__inputs {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  height: 0vh;
+}
+.container .box .form > div .form__inputs:placeholder-shown ~ .form__labels {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-7rem);
+}
+.container .box .form > div .form__labels2 {
+  font-size: 1.2rem;
+  margin-left: 0.7rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  font-family: sans-serif;
+  transform: translateY(-6.9rem);
+}
+.container .box .form > div .form__inputs2 {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  height: 0vh;
+}
+.container .box .form > div .form__inputs2:placeholder-shown ~ .form__labels2 {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-7rem);
+}
+.container .box .form > div .form__labels3 {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  font-family: sans-serif;
+  transform: translateY(-5.6rem);
+}
+.container .box .form > div .form__inputs3 {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+  height: 0vh;
+}
+.container .box .form > div .form__inputs3:placeholder-shown ~ .form__labels3 {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-7rem);
+}
+.container .box .form > button {
+  outline: none;
+  border: none;
+  width: 5vw;
+  height: 4vh;
+  border-radius: 0.2em;
+  font-family: sans-serif;
+  cursor: pointer;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  color: white;
+  margin-top: -2em;
+}
+.container .box .form #boxe > h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  margin-top: -0.3em;
+}
+.container .box .form .imgone {
+  width: 3vw;
+  cursor: pointer;
+}
+.container .box > p {
+  font-family: sans-serif;
+  margin-left: 2em;
+  font-size: 1.1em;
+}
+.container .box > p > button {
+  outline: none;
+  border: none;
+  width: 5vw;
+  height: 4vh;
+  border-radius: 0.2em;
+  font-family: sans-serif;
+  cursor: pointer;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  color: white;
+  margin-top: 1em;
+  margin-left: 0.8em;
+}/*# sourceMappingURL=signup.css.map */

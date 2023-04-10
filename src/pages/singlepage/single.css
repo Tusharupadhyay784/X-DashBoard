@@ -1,0 +1,93 @@
+.single {
+  display: flex;
+  width: 100%;
+}
+.single .singleContainer {
+  flex: 6;
+}
+.single .singleContainer .top {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.single .singleContainer .top .left {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1em 0em 1em 1em;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.single .singleContainer .top .left:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.single .singleContainer .top .left .parallax-effect {
+  transform-style: preserve-3d;
+}
+.single .singleContainer .top .left .parallax-effect .inner-element1 {
+  transform: translateZ(60px);
+}
+.single .singleContainer .top .left .editButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 12px;
+  color: #7451f8;
+  background-color: rgba(117, 81, 248, 0.0941176471);
+  border-radius: 0px 0px 0px 5px;
+  cursor: pointer;
+}
+.single .singleContainer .top .left .item {
+  display: flex;
+  gap: 20px;
+}
+.single .singleContainer .top .left .item .itemImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.single .singleContainer .top .left .item .details .itemTitle {
+  margin-bottom: 10px;
+  color: #555;
+}
+.single .singleContainer .top .left .item .details .detailItem {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.single .singleContainer .top .left .item .details .detailItem .itemKey {
+  font-weight: bold;
+  color: gray;
+  margin-right: 5px;
+}
+.single .singleContainer .top .left .item .details .detailItem .itemValue {
+  font-weight: 300;
+}
+.single .singleContainer .top .left .item .parallax-effect-img {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.single .singleContainer .top .left .item .parallax-effect-img .inner-element {
+  transform: translateZ(20px) scale(0.8);
+}
+.single .singleContainer .top .right {
+  flex: 2;
+}
+.single .singleContainer .bottom {
+  padding: 20px;
+  margin: 10px 20px;
+}
+.single .singleContainer .bottom:hover {
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.single .title {
+  font-size: 16px;
+  color: lightgray;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=single.css.map */

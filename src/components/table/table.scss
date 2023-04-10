@@ -1,0 +1,54 @@
+.table {
+
+    .cellWrapper {
+        display: flex;
+        align-items: center;
+
+        .image {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+
+    }
+
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Approved {
+            color: green;
+            background-color: rgba(0, 128, 0, .151);
+        }
+
+        &.Pending {
+            color: goldenrod;
+            background-color: rgba(189, 189, 3, .103);
+        }
+    }
+
+    .two {
+
+        border: 2px solid black;
+        position: sticky;
+        // z-index: -1;
+        background-color: #c8e0f7 !important;
+        background-image: linear-gradient(62deg, #dbe8f5 0%, #E0C3FC 100%) !important;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px) !important;
+        // -webkit-backdrop-filter: blur(10px);
+        // border-radius: 1em 0em 1em 1em;
+        border: 1px solid rgba(255, 255, 255, 0.18) !important;
+
+        // outline: none;
+        // border: none;
+        &:hover {
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+
+        }
+    }
+
+    // border: 2px solid black;
+}

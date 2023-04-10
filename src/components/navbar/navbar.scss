@@ -1,0 +1,90 @@
+.navbar {
+    height: 50px;
+    border-bottom: .5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    .wrapper {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        // background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        // backdrop-filter: blur(10px) !important;
+        // // -webkit-backdrop-filter: blur(10px);
+        // // border-radius: 1em 0em 1em 1em;
+        // border: 1px solid rgba(255, 255, 255, 0.18) !important;
+        // box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+
+        // background-color: rebeccapurple;
+        .search {
+            display: flex;
+            align-items: center;
+            border: 0 .5px solid lightgray;
+            padding: 3px;
+
+            input {
+                border: none;
+                outline: none;
+                background-color: transparent; // for dark mode purpose
+
+                &::placeholder {
+                    font-size: 12px;
+
+                }
+            }
+        }
+
+        width: 100%;
+
+        .items {
+            display: flex;
+            align-items: center;
+
+            .item {
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                position: relative;
+
+                .icon {
+                    font-size: 20px;
+
+                }
+
+                .avatar {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    object-fit: cover;
+
+                }
+
+                .counter {
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                    // whenever we give postiontn asbolute the parent element must be in relative position
+
+                }
+            }
+        }
+    }
+
+    .xmen {
+        background-color: #c8e0f7 !important;
+        background-image: linear-gradient(62deg, #dbe8f5 0%, #E0C3FC 100%) !important;
+    }
+}
